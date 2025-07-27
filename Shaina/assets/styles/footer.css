@@ -1,0 +1,24 @@
+.footer-about{
+    display: flex;
+    padding: 30px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    line-height: 25px;
+}
+
+.foot-nav {
+    list-style: none;
+}
+
+.footer-h3{
+    font-size: 20px;
+}
+
+.foot{
+    font-size: 15px;
+}
+
+#footer{
+    bottom: 0;
+}

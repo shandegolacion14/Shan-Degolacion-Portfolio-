@@ -1,0 +1,131 @@
+/* first section */
+
+#banner {
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    transition: opacity 1s ease-out; 
+}
+
+.name {
+    font-size: 60px;
+    color: brown;
+    font-weight: bold;
+    padding: 30px 0px;
+    line-height: 70px;
+}
+
+.banner-p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.shan-pics {
+    position: relative;
+    opacity: 0; 
+    transform: translateX(100vw); 
+    animation: slideInPic 1.5s ease-out forwards;
+    transition: opacity 1s ease-out;
+}
+
+.about-shan {
+    opacity: 0;
+    transform: translateX(100vw); 
+    animation: slideInText 1.5s ease-out forwards; 
+    transition: opacity 1s ease-out;
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(50px); 
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 70px;
+    padding: 40px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+/* 2nd section */
+.container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 350px;
+    min-height: 150px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+.container:hover{
+    transition: all 0.2s;
+    transform: scale(1.03);
+}
+.shanpic {
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+/* soc meddss */
+#social-media ul{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+    list-style: none;
+}
+
+/* 3rd section */
+#need-to-know{
+    display: flex;
+    justify-content: center;
+}
+.shanix
+{
+    background: linear-gradient(to right,#1D2354
+,#7E879C,#1D2354);
+    max-width: 800px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 20px 100px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.need-about-shan{
+    font-size: 40px;
+}
+
+@keyframes slideInText {
+    0% {
+        opacity: 0;
+        transform: translateX(-100vw);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInPic {
+    0% {
+        opacity: 0;
+        transform: translateX(100vw);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+

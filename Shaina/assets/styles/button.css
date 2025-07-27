@@ -1,0 +1,16 @@
+.banner-btn{
+    padding: 13px 30px;
+    font-size: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.last-section-btn{
+      padding: 10px 20px;
+    font-size: 15px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid black;
+}

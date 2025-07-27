@@ -1,0 +1,38 @@
+
+.information{
+    color: #fff;
+    margin-left: 30%;
+    margin-top: 30px;
+    padding: 30px;
+    width: 40%;
+    line-height: 30px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #242121, #3D3D3D);
+}
+
+.svg-contact{
+    position: absolute;
+    padding: 2px;
+}
+
+.info-contact{
+    padding-top: 2px;
+    padding-left: 40px;
+}
+
+#contact-main{
+    display: flex;
+    justify-content:center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 900px;
+    width: 1000px;
+}
+
+.location{
+    margin-right:10%
+}

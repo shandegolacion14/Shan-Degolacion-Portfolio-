@@ -1,0 +1,26 @@
+#header{
+    background: rgba(0, green, blue, 0.2);
+    backdrop-filter: blur(5px);
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+.logo{
+    height: 100px;
+}
+nav ul li, .nav{
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #000;
+}
+
+
+
